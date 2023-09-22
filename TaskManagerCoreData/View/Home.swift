@@ -79,6 +79,7 @@ struct Home: View {
             }, label: {
                 Image(systemName: "plus")
                     .foregroundColor(.white)
+                    .padding()
                     .background(Color.black, in: Circle())
             })
             .padding()
