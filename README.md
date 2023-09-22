@@ -1,7 +1,7 @@
 # Task Management App with Core Data CRUD Operations
 This project represents a Task Management iOS Application developed using SwiftUI. <br>
 The application demonstrates a well-structured UI and is integrated with Core Data, enabling CRUD (Create, Read, Update, Delete) operations for efficient task management. <br>
-If you are solely interested in exploring how the UI part functions, please refer to the [UI-focused Task Manager Project]([https://github.com/ceciliachenguo/TaskManagerCoreData](https://github.com/ceciliachenguo/TaskManager)).
+If you are solely interested in exploring how the UI part functions, please refer to the [UI-focused Task Manager Project](https://github.com/ceciliachenguo/TaskManager).
 
 
 ## Video Demo:
