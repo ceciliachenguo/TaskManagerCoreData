@@ -13,6 +13,10 @@
 		8D9E02AB2ABE118B008DE778 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E02AA2ABE118B008DE778 /* Preview Assets.xcassets */; };
 		8D9E02AD2ABE118B008DE778 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02AC2ABE118B008DE778 /* Persistence.swift */; };
 		8D9E02B02ABE118B008DE778 /* TaskManagerCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02AE2ABE118B008DE778 /* TaskManagerCoreData.xcdatamodeld */; };
+		8D9E02B92ABE12C7008DE778 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02B82ABE12C7008DE778 /* Home.swift */; };
+		8D9E02BB2ABE12CF008DE778 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02BA2ABE12CF008DE778 /* TaskViewModel.swift */; };
+		8D9E02C02ABE14FF008DE778 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02BF2ABE14FF008DE778 /* DynamicFilteredView.swift */; };
+		8D9E02C22ABE17FB008DE778 /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E02C12ABE17FB008DE778 /* NewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		8D9E02AA2ABE118B008DE778 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D9E02AC2ABE118B008DE778 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8D9E02AF2ABE118B008DE778 /* TaskManagerCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManagerCoreData.xcdatamodel; sourceTree = "<group>"; };
+		8D9E02B82ABE12C7008DE778 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8D9E02BA2ABE12CF008DE778 /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		8D9E02BF2ABE14FF008DE778 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
+		8D9E02C12ABE17FB008DE778 /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 		8D9E02A22ABE1189008DE778 /* TaskManagerCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				8D9E02B72ABE128B008DE778 /* ViewModel */,
+				8D9E02B62ABE1286008DE778 /* View */,
 				8D9E02A32ABE1189008DE778 /* TaskManagerCoreDataApp.swift */,
 				8D9E02A52ABE1189008DE778 /* ContentView.swift */,
 				8D9E02A72ABE118B008DE778 /* Assets.xcassets */,
@@ -71,6 +81,24 @@
 				8D9E02AA2ABE118B008DE778 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D9E02B62ABE1286008DE778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E02B82ABE12C7008DE778 /* Home.swift */,
+				8D9E02BF2ABE14FF008DE778 /* DynamicFilteredView.swift */,
+				8D9E02C12ABE17FB008DE778 /* NewTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D9E02B72ABE128B008DE778 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E02BA2ABE12CF008DE778 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9E02AD2ABE118B008DE778 /* Persistence.swift in Sources */,
+				8D9E02C02ABE14FF008DE778 /* DynamicFilteredView.swift in Sources */,
+				8D9E02BB2ABE12CF008DE778 /* TaskViewModel.swift in Sources */,
 				8D9E02A62ABE1189008DE778 /* ContentView.swift in Sources */,
+				8D9E02B92ABE12C7008DE778 /* Home.swift in Sources */,
+				8D9E02C22ABE17FB008DE778 /* NewTask.swift in Sources */,
 				8D9E02B02ABE118B008DE778 /* TaskManagerCoreData.xcdatamodeld in Sources */,
 				8D9E02A42ABE1189008DE778 /* TaskManagerCoreDataApp.swift in Sources */,
 			);
